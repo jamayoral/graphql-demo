@@ -1,2 +1,2 @@
-# GraphQL demo
+# GraphQL
 Introduction to GraphQL
