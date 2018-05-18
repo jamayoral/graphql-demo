@@ -3,7 +3,7 @@
 Install and run:
 
 ```
-yarn install / npm install
+yarn install
 yarn start
 
 ```
