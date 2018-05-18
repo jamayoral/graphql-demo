@@ -1,10 +1,9 @@
 # GraphQL JSON
 
-Install, build and run:
+Install and run:
 
 ```
-yarn install
-yarn run build
+yarn install / npm install
 yarn start
 
 ```
