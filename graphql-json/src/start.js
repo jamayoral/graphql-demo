@@ -1,8 +1,8 @@
-import express from 'express'
-import bodyParser from 'body-parser'
-import {graphqlExpress, graphiqlExpress} from 'graphql-server-express'
-import {makeExecutableSchema} from 'graphql-tools'
-import cors from 'cors'
+import bodyParser from 'body-parser';
+import cors from 'cors';
+import express from 'express';
+import { graphiqlExpress, graphqlExpress } from 'graphql-server-express';
+import { makeExecutableSchema } from 'graphql-tools';
 import * as _ from 'lodash';
 
 const URL = 'http://localhost'
@@ -13,11 +13,15 @@ const posts = [
     _id: "1",
     title: "Hello",
     content: "World",
+    photo: "Photo_1.jpg",
+    description: "Yeah!!"
   },
   {
     _id: "2",
     title: "Article",
     content: "Some content",
+    photo: "Photo_2.jpg",
+    description: "Awesome article"
   },
 ]
 const comments = [
